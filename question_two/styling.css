@@ -1,0 +1,10 @@
+#form1{
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+
+.mandatory {
+	color: #d7666b;	
+	font-size: 14px;
+	visibility: hidden;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Sign Up Form</title>
+        <link rel=“stylesheet” type="text/css" href="styling.css">
+    </head>
+    <body>
+        <h3>Sign Up Form Example</h3>
+        <form id="form1">
+            <table >
+            <tr>
+                <td><label for="name">First, Last Name*: </label></td>
+                <td><input type="text" name="fName"></td>
+                <td><input type="text" name="lName"></td>
+                <td>
+                    <span class="mandatory">
+                        *This is required
+                    </span>
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label for="org">Organization: </label></td>
+                <td colspan=2><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email Address*: </label></td>
+                <td colspan="2"><input type="email" name="eml"></td>
+                <td>
+                    <span class="mandatory">
+                        *This is required
+                    </span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="wPhone">Work Phone: </label></td>
+                <td colspan="2"><input type="number"></td>
+            </tr>
+
+            <tr>
+                <td><label for="hPhone">Home Phone: </label></td>
+                <td><input type="number"></td>
+            </tr>
+            
+            <tr>
+                <td> <label for="cPhone">Cell Phone: </label></td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td><label for="fax">Fax: </label></td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td><label for="add1">Address 1*: </label></td>
+                <td><input type="text" name="addr1"></td>
+                <td>
+                    <span class="mandatory">
+                        *This is required
+                    </span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="add2">Address 2: </label></td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td><label for="city">City*: </label></td>
+                <td><input type="text" name="city"></td>
+                <td>
+                    <span class="mandatory">
+                        *This is required
+                    </span>
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label for="province">State Province: </label></td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td> <label for="zip">Zip Postal Code: </label></td>
+                <td><input type="number"></td>
+            </tr>
+
+            <tr>
+                <td> <label for="country">Country*: </label></td>
+                <td><input type="text" name="cntry"></td>
+                <td>
+                    <span class="mandatory">
+                        *This is required
+                    </span>
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label for="require">*. required fields: </label></td>
+                <td><input type="button" id ="button" value="Submit"/></td>
+            </tr>
+            </table>
+        </form>
+
+        <script src="actions.js"></script>
+        
+    </body>
+</html>
